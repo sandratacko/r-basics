@@ -1,0 +1,11 @@
+{
+  "name": "R with RStudio",
+  "image": "rocker/rstudio:latest",
+  "forwardPorts": [8787],
+  "portsAttributes": {
+    "8787": { "label": "RStudio", "onAutoForward": "openBrowser" }
+  },
+  "containerEnv": {
+    "PASSWORD": "rstudio"
+  }
+}
